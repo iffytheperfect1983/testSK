@@ -16,7 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    // Configure the SKView
+//    SKView * skView = _skView;
+    self.skView = [[SKView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    
+    self.skView.showsFPS = YES;
+    self.skView.showsNodeCount = YES;
+    
+    // Create and configure the scene.
+    SKScene * scene = [MyScene sceneWithSize:self.skView.bounds.size];
+//    SKScene *scene = [MyScene sceneWithSize:CGSizeMake(100, 100)];
+    scene.scaleMode = SKSceneScaleModeAspectFill;
+    
+    // Present the scene.
+    [self.skView presentScene:scene];
+    [self.view addSubview:self.skView];
 }
 
 - (void)didReceiveMemoryWarning {

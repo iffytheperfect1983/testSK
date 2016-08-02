@@ -13,6 +13,9 @@
 		C04BAC821D5070FA00DFFF7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04BAC801D5070FA00DFFF7E /* Main.storyboard */; };
 		C04BAC841D5070FA00DFFF7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04BAC831D5070FA00DFFF7E /* Assets.xcassets */; };
 		C04BAC871D5070FA00DFFF7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04BAC851D5070FA00DFFF7E /* LaunchScreen.storyboard */; };
+		C04BAC901D5071AF00DFFF7E /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C04BAC8F1D5071AF00DFFF7E /* MyScene.m */; };
+		C04BAC931D50724F00DFFF7E /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = C04BAC911D50724F00DFFF7E /* MyParticle.sks */; };
+		C04BAC941D50724F00DFFF7E /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = C04BAC921D50724F00DFFF7E /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		C04BAC831D5070FA00DFFF7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C04BAC861D5070FA00DFFF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C04BAC881D5070FA00DFFF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04BAC8E1D5071AF00DFFF7E /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		C04BAC8F1D5071AF00DFFF7E /* MyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		C04BAC911D50724F00DFFF7E /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		C04BAC921D50724F00DFFF7E /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +74,10 @@
 				C04BAC851D5070FA00DFFF7E /* LaunchScreen.storyboard */,
 				C04BAC881D5070FA00DFFF7E /* Info.plist */,
 				C04BAC771D5070FA00DFFF7E /* Supporting Files */,
+				C04BAC8E1D5071AF00DFFF7E /* MyScene.h */,
+				C04BAC8F1D5071AF00DFFF7E /* MyScene.m */,
+				C04BAC911D50724F00DFFF7E /* MyParticle.sks */,
+				C04BAC921D50724F00DFFF7E /* spark.png */,
 			);
 			path = testSK;
 			sourceTree = "<group>";
@@ -136,9 +147,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04BAC941D50724F00DFFF7E /* spark.png in Resources */,
 				C04BAC871D5070FA00DFFF7E /* LaunchScreen.storyboard in Resources */,
 				C04BAC841D5070FA00DFFF7E /* Assets.xcassets in Resources */,
 				C04BAC821D5070FA00DFFF7E /* Main.storyboard in Resources */,
+				C04BAC931D50724F00DFFF7E /* MyParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04BAC901D5071AF00DFFF7E /* MyScene.m in Sources */,
 				C04BAC7F1D5070FA00DFFF7E /* ViewController.m in Sources */,
 				C04BAC7C1D5070FA00DFFF7E /* AppDelegate.m in Sources */,
 				C04BAC791D5070FA00DFFF7E /* main.m in Sources */,
